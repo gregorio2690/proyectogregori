@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+
+}
+header{background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+.container{
+    padding: 1rem;
+}
+.form-group{
+    margin-bottom: 1rem;
+}
+label{
+    display: block;
+    margin-bottom: 0.5rem;
+}
+input,button{
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.25rem;
+    border: 1px solid #ddd;
+    border-radius: 5 px;
+}
+button{
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #45a049;
+}
